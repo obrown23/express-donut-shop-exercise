@@ -1,7 +1,16 @@
+import { model } from "mongoose";
+
 //= =====================
 // REQUIREMENTS
 //= =====================
 // require the Donut model
+const Donut = mongoose.Schema {
+  name: String,
+  description: String,
+  img: String,
+  price: number,
+  qty: number
+};
 
 const donutController = {
   //= =====================
@@ -49,3 +58,6 @@ const donutController = {
 // EXPORTS
 //= =====================
 // export the controller with module.exports
+model.exports = {
+Donut
+};
